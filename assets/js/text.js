@@ -20,7 +20,7 @@ $(function() {
 });
 $(function() {
   $(".typed").typed({
-      strings: ["Hi! i'm Cáo.", "Nothing here.", "Phốc", "Khong biet noi j"],
+      strings: ["Cx manh", "Idk", "Phoc", "Khong biet noi j"],
       typeSpeed: 150,
       loop: true,
       cursorChar: "|",
