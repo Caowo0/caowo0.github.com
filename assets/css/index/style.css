@@ -1,4 +1,16 @@
 /* index.html main page styles */
+mbody{
+    width: 100%;
+    min-height: 100%;
+    right: 1000xp;
+    margin: auto;
+    background: center;
+    background-image: url(../../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    display: flex;
+    font-family: 'Gotham Pro';
+}
 body {
     width: 100%;
     min-height: 100%;
@@ -182,22 +194,21 @@ h2 {
     overflow: auto;
 }
 .popup {
-    left: 30;
-    top: 30;
+    top: 7%;
+    left: 0;
+    right: 0;
     font-size: 14px;
     margin: auto;
-    width: 75%;
+    width: 85%;
     min-width: 320px;
-    max-width: 580px;
-    position: fixed;
+    max-width: 600px;
+    position: absolute;
     border: 1px solid #383838;
-    background: var(--over-color);
     z-index: 1000;
     border-radius: 14px;
     font: 'Product Sans';
-    display: flex;
     background: none;
-    padding: 35px;
+    padding: 15px 20px;
     color: var(--text-color);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(15px);
